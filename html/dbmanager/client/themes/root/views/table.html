@@ -1,0 +1,37 @@
+<button class="btn" data-hbutton="true"></button>
+<script>
+  thisNode.writeProperty(thisElement);
+  //thisElement.textContent=thisNode.props.tableName;
+  thisElement.addEventListener("click", async function(ev) {
+    ev.preventDefault();
+    const {NodeFemale} = await import('./' + CLIENT_MODULES_PATH + 'nodesfront.js');
+    const myrootmother=new NodeFemale('TABLE_' + thisNode.props.tableName.toUpperCase(), 'TABLE_' + thisNode.props.tableName.toUpperCase());
+    //we have to load root element if autorelated or all the elements if not
+    await myrootmother.loadRequest("get my childtablekeys");
+    let autorelated=false;
+    for (const syskey of myrootmother.syschildtablekeysinfo) {
+      if (syskey.type=="foreignkey" && syskey.parenttablename==myrootmother.props.childtablename) {
+        autorelated=true;
+      }
+    }
+    if (autorelated) {
+      myrootmother.props.parenttablename=myrootmother.props.childtablename;
+      await myrootmother.loadRequest("get my root");
+    }
+    else {
+      await myrootmother.loadRequest("get all my children");
+      console.log(myrootmother);
+    }
+
+    myrootmother.setChildrenView(document.getElementById("treecontainer"), "maletp")
+    .then(async ()=>{
+      if (myrootmother.children.length==0) {
+        const newNode=await myrootmother.createInstanceChildText();
+        newNode.setView(myrootmother.childContainer, "butaddnewnode");
+      }
+    });
+    
+    const {setActive} = await import('./' + CLIENT_MODULES_PATH + 'activenode.js');
+    setActive(thisNode);
+  });
+</script>

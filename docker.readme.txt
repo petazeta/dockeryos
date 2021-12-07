@@ -1,0 +1,9 @@
+apache server con mysql y pgsql:
+localhost:8020 - node dbadmin
+localhost:8080 - htmldocs
+localhost:5000 - phpmyadmin
+localhost:8888 - adminer
+
+// utilidades
+sudo docker-compose exec mysql-server bash
+mysql -u root -p

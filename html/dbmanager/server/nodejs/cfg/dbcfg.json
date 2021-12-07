@@ -1,0 +1,8 @@
+{
+  "host": "mysql-server",
+  "user": "root",
+  "password": "secret",
+  "database": "mydb",
+  "dbsys": "mysql",
+  "importPath": "./server/utils/"
+}

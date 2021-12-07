@@ -1,0 +1,6 @@
+{
+  "host": "mysql-server",
+  "user": "root",
+  "password": "secret",
+  "database": "mydb"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@petazeta/your-online-shop-server",
+  "version": "1.0.0",
+  "description": "server api for your online shop",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "start": "node serverindex.js",
+    "test": "node serverindex.js"
+  },
+  "author": "alberto melchor herrera",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "mysql": "^2.18.1"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}

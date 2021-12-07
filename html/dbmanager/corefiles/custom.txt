@@ -1,0 +1,3 @@
+The custom settions of dbmanager are:
+client/includes/config.js Config.styleId= "dbadmin"
+server/cfg/generalcfg.js autoLogin: "systemadmin"
