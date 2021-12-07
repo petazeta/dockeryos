@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 485 980" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(2.19709e-17,0.372185,-0.249345,1.361e-17,797.255,-178.805)">
+        <path d="M3105.46,1405.02C3105.46,1331.34 3065.38,1271.51 3016.02,1271.51L578.356,1271.51C528.99,1271.51 488.912,1331.34 488.912,1405.02L488.912,3045.27C488.912,3118.96 528.99,3178.78 578.356,3178.78L3016.02,3178.78C3065.38,3178.78 3105.46,3118.96 3105.46,3045.27L3105.46,1405.02Z" style="fill:rgb(96,96,96);stroke:rgb(62,62,62);stroke-width:8.2px;"/>
+    </g>
+    <g transform="matrix(2.03876e-17,0.335945,-0.316281,1.85618e-17,979.026,-69.1528)">
+        <rect x="432.688" y="1613.18" width="2395.98" height="1431.53" style="fill:rgb(29,29,29);"/>
+    </g>
+    <g transform="matrix(0.631201,0,0,0.404899,87.4526,25.3479)">
+        <path d="M300.674,35.741C300.674,29.262 297.299,24.001 293.142,24.001L198.135,24.001C193.979,24.001 190.604,29.262 190.604,35.741C190.604,42.221 193.979,47.482 198.135,47.482L293.142,47.482C297.299,47.482 300.674,42.221 300.674,35.741Z" style="fill:rgb(74,74,74);stroke:rgb(62,62,62);stroke-width:3.14px;"/>
+    </g>
+    <g transform="matrix(0.55397,0,0,0.607349,87.5116,18.1121)">
+        <ellipse cx="156.849" cy="35.741" rx="13.208" ry="11.741" style="fill:rgb(74,74,74);stroke:rgb(62,62,62);stroke-width:2.15px;"/>
+    </g>
+    <g transform="matrix(1.00629,0,0,0.973828,22.9323,0.755819)">
+        <ellipse cx="218.121" cy="953.851" rx="27.517" ry="28.435" style="fill:rgb(74,74,74);stroke:rgb(62,62,62);stroke-width:2.62px;"/>
+    </g>
+    <g transform="matrix(0.276985,0,0,0.303674,198.981,11.1668)">
+        <ellipse cx="156.849" cy="35.741" rx="13.208" ry="11.741" style="fill:rgb(74,74,74);stroke:rgb(62,62,62);stroke-width:4.3px;"/>
+    </g>
+</svg>
